@@ -50,7 +50,7 @@ def generate_name():
 
     str1 = ""
     str1 = str1.join(generated_name)
-    #generated_name = generated_name.append(generated_name)
+    
     return str1
 
 
