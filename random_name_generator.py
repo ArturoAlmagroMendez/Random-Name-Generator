@@ -1,10 +1,10 @@
 import random
 
-may_vocals = ['A', 'E', 'I', 'O', 'U']
-min_vocals = ['a', 'e', 'i', 'o', 'u']
-may_consonants = ['Q', 'W', 'R', 'T', 'Y', 'P', 'S', 'D', 'F',
+may_vocals = ['A', 'E', 'I', 'O', 'U'] #lista de todas las vocales mayúsculas
+min_vocals = ['a', 'e', 'i', 'o', 'u'] #lista de todas las vocales minúsculas
+may_consonants = ['Q', 'W', 'R', 'T', 'Y', 'P', 'S', 'D', 'F', #lista de todas las consonantes mayúsculas
                   'G', 'H', 'J', 'K', 'L', 'Z', 'X', 'C', 'V', 'B', 'N', 'M']
-min_consonants = ['q', 'w', 'r', 't', 'y', 'p', 's', 'd', 'f',
+min_consonants = ['q', 'w', 'r', 't', 'y', 'p', 's', 'd', 'f', #lista de todas las consonantes minúsculas
                   'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
 may = may_vocals + may_consonants  # Una lista de todas las letras mayúsculas
 mins = min_consonants + min_vocals  # Una lista de todas las letras minusculas
