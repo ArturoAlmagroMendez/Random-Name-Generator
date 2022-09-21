@@ -8,10 +8,10 @@ min_consonants = ['q', 'w', 'r', 't', 'y', 'p', 's', 'd', 'f',
                   'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
 may = may_vocals + may_consonants  # Una lista de todas las letras mayúsculas
 mins = min_consonants + min_vocals  # Una lista de todas las letras minusculas
-# Una lista de vocales tanto minúsculas como mayúsculas
-vocals = may_vocals + min_vocals
-# Una lista de consonantes tanto minúsculas como mayúsculas
-consonants = may_consonants + min_consonants
+
+vocals = may_vocals + min_vocals # Una lista de vocales tanto minúsculas como mayúsculas
+
+consonants = may_consonants + min_consonants # Una lista de consonantes tanto minúsculas como mayúsculas
 msg = "How many characters do you want in your new name?(Max: 12 Characters) "
 
 # Bienvenido al generador de nombres aleatorios para tus videojuegos!
